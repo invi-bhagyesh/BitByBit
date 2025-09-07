@@ -2,41 +2,37 @@
 
 <img src="assets/dino.jpg" alt="PersonalHub Illustration" height="150" style="max-width: 100%;"/>
 
-  
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
-  [![C Language](https://img.shields.io/badge/C-Standard-red.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![C Language](https://img.shields.io/badge/C-Standard-red.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 
 <h3>A unified hub for learning and implementing projects in <b>multiple languages</b> (Python & C).</h3>
 </div>
 
 ---
 
-
 ## 🔹 Project Roadmap
 
-<div style="overflow-x:auto; padding: 10px; border: 1px solid #ddd; border-radius: 6px;">
-
-| Difficulty   | Project                  | Folder | Python | C |
-| ------------ | ------------------------ | ------ | :----: | :-: |
-| Beginner     | Number Guessing Game     | [Link](projects/number_guessing_game/) | [ ] | [ ] |
-| Beginner     | Simple Calculator        | [Link](projects/simple_calculator/) | [ ] | [ ] |
-| Beginner     | Rock, Paper, Scissors    | [Link](projects/rock_paper_scissors/) | [ ] | [ ] |
-| Beginner     | To-Do List (CLI)         | [Link](projects/todo_list/) | [ ] | [ ] |
-| Beginner     | Quiz App                 | [Link](projects/quiz_app/) | [ ] | [ ] |
-| Beginner     | Sudoku                   | [Link](projects/sudoku/) | [ ] | [ ] |
-| Beginner     | Brickout                 | [Link](projects/brickout/) | [ ] | [ ] |
-| Intermediate | Tic-Tac-Toe / Snake Game | [Link](projects/tic_tac_toe/) | [ ] | [ ] |
-| Intermediate | Student Record System    | [Link](projects/student_record_system/) | [ ] | [ ] |
-| Intermediate | Banking System (Mini-ATM)| [Link](projects/banking_system/) | [ ] | [ ] |
-| Intermediate | Library Management System| [Link](projects/library_management_system/) | [ ] | [ ] |
-| Advanced     | LRU Cache                | [Link](projects/lru_cache/) | [ ] | [ ] |
-| Advanced     | Custom Shell / Mini Bash Clone | [Link](projects/custom_shell/) | [ ] | [ ] |
-| Advanced     | File Compression Tool (Huffman) | [Link](projects/file_compression/) | [ ] | [ ] |
-| Advanced     | Encryption/Decryption Tool | [Link](projects/encryption_tool/) | [ ] | [ ] |
-| Advanced     | Markdown → HTML Converter | [Link](projects/markdown_converter/) | [ ] | [ ] |
-
-</div>
+```
+| Difficulty   | Project                        | Folder | Python | C |
+| ------------ | ------------------------------ | ------ | :----: | :-: |
+| Beginner     | Number Guessing Game           | [Link](projects/number_guessing_game/) | [ ] | [ ] |
+| Beginner     | Simple Calculator              | [Link](projects/simple_calculator/)    | [ ] | [ ] |
+| Beginner     | Rock, Paper, Scissors          | [Link](projects/rock_paper_scissors/)  | [ ] | [ ] |
+| Beginner     | To-Do List (CLI)               | [Link](projects/todo_list/)            | [ ] | [ ] |
+| Beginner     | Quiz App                       | [Link](projects/quiz_app/)             | [ ] | [ ] |
+| Beginner     | Sudoku                         | [Link](projects/sudoku/)               | [ ] | [ ] |
+| Beginner     | Brickout                       | [Link](projects/brickout/)             | [ ] | [ ] |
+| Intermediate | Tic-Tac-Toe / Snake Game       | [Link](projects/tic_tac_toe/)          | [ ] | [ ] |
+| Intermediate | Student Record System          | [Link](projects/student_record_system/)| [ ] | [ ] |
+| Intermediate | Banking System (Mini-ATM)      | [Link](projects/banking_system/)       | [ ] | [ ] |
+| Intermediate | Library Management System      | [Link](projects/library_management_system/)| [ ] | [ ] |
+| Advanced     | LRU Cache                      | [Link](projects/lru_cache/)            | [ ] | [ ] |
+| Advanced     | Custom Shell / Mini Bash Clone | [Link](projects/custom_shell/)         | [ ] | [ ] |
+| Advanced     | File Compression Tool (Huffman)| [Link](projects/file_compression/)     | [ ] | [ ] |
+| Advanced     | Encryption/Decryption Tool     | [Link](projects/encryption_tool/)      | [ ] | [ ] |
+| Advanced     | Markdown → HTML Converter      | [Link](projects/markdown_converter/)   | [ ] | [ ] |
+```
 
 - Beginner | Intermediate | Advanced  
 - ✔️ Mark progress by replacing `[ ]` with `[x]`.
