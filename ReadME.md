@@ -14,6 +14,8 @@
 
 ## 🔹 Project Roadmap
 
+<div style="overflow-x:auto;">
+
 | Difficulty      | Project                         | Folder                                   | Python |  C  |
 | --------------- | ------------------------------- | ---------------------------------------- | :----: | :-: |
 | 🟢 Beginner     | Number Guessing Game            | [Link](projects/number_guessing_game/)      |  [ ]  | [ ] |
@@ -31,11 +33,12 @@
 | 🔴 Advanced     | Custom Shell / Mini Bash Clone  | [Link](projects/custom_shell/)              |  [ ]  | [ ] |
 | 🔴 Advanced     | File Compression Tool (Huffman) | [Link](projects/file_compression/)          |  [ ]  | [ ] |
 | 🔴 Advanced     | Encryption/Decryption Tool      | [Link](projects/encryption_tool/)           |  [ ]  | [ ] |
-| 🔴 Advanced     | Markdown → HTML Converter      | [Link](projects/markdown_converter/)        |  [ ]  | [ ] |
+| 🔴 Advanced     | Markdown → HTML Converter       | [Link](projects/markdown_converter/)        |  [ ]  | [ ] |
 
-- 🟢 Beginner | 🟡 Intermediate | 🔴 Advanced
+</div>
+
+- 🟢 Beginner | 🟡 Intermediate | 🔴 Advanced  
 - ✔️ Mark progress by replacing `[ ]` with `[x]`.
-
 ---
 
 ## 🔹 How to Use
