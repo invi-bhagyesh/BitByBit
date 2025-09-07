@@ -72,3 +72,4 @@
 - Strengthen problem-solving skills across Python & C.
 - Compare implementations across languages.
 
+⚠️ **Disclaimer:** This repository is for **self-learning and practice purposes only**.  
