@@ -14,8 +14,9 @@
 ---
 
 ## 🔹 Project Roadmap
-| Difficulty   | Project                                                         | Python |   C  |
-| ------------ | --------------------------------------------------------------- | :----: | :--: |
+
+| Difficulty   | Project                                                      | Python |  C  |
+| ------------ | ------------------------------------------------------------ | :----: | :--: |
 | Beginner     | [Number Guessing Game](projects/number_guessing_game)           |  \[ ]  | \[ ] |
 | Beginner     | [Simple Calculator](projects/simple_calculator)                 |  \[ ]  | \[ ] |
 | Beginner     | [Rock, Paper, Scissors](projects/rock_paper_scissors)           |  \[ ]  | \[ ] |
@@ -31,35 +32,36 @@
 | Advanced     | [Custom Shell / Mini Bash Clone](projects/custom_shell)         |  \[ ]  | \[ ] |
 | Advanced     | [File Compression Tool (Huffman)](projects/file_compression)    |  \[ ]  | \[ ] |
 | Advanced     | [Encryption/Decryption Tool](projects/encryption_tool)          |  \[ ]  | \[ ] |
-| Advanced     | [Markdown → HTML Converter](projects/markdown_converter)        |  \[ ]  | \[ ] |
+| Advanced     | [Markdown → HTML Converter](projects/markdown_converter)       |  \[ ]  | \[ ] |
 
-
-
-- Beginner | Intermediate | Advanced  
+- Beginner | Intermediate | Advanced
 - ✔️ Mark progress by replacing `[ ]` with `[x]`.
+
 ---
 
 ## 🔹 Data Structures Projects
 
 <div style="overflow-x: auto; padding: 10px; border: 1px solid #ddd; border-radius: 6px;">
 
-| Project                     | Folder                                   | Python | C |
-| ---------------------------- | ---------------------------------------- | :----: | :-: |
-| Stack Implementation         | [Link](projects/stack/)                   | [ ]    | [ ] |
-| Queue Implementation         | [Link](projects/queue/)                   | [ ]    | [ ] |
-| Linked List                  | [Link](projects/linked_list/)             | [ ]    | [ ] |
-| Doubly Linked List           | [Link](projects/doubly_linked_list/)     | [ ]    | [ ] |
-| Circular Linked List         | [Link](projects/circular_linked_list/)   | [ ]    | [ ] |
-| Binary Tree                  | [Link](projects/binary_tree/)            | [ ]    | [ ] |
-| Binary Search Tree           | [Link](projects/bst/)                     | [ ]    | [ ] |
-| Heap (Min/Max)               | [Link](projects/heap/)                    | [ ]    | [ ] |
-| Graph (Adjacency List/Matrix)| [Link](projects/graph/)                   | [ ]    | [ ] |
-| Hash Table                   | [Link](projects/hash_table/)              | [ ]    | [ ] |
+| Project                       | Folder                              | Python |  C  |
+| ----------------------------- | ----------------------------------- | :----: | :--: |
+| Stack Implementation          | [Link](projects/stack/)                |  [ ]  | [x] |
+| Queue Implementation          | [Link](projects/queue/)                |  [ ]  | [ ] |
+| Linked List                   | [Link](projects/linked_list/)          |  [ ]  | [ ] |
+| Doubly Linked List            | [Link](projects/doubly_linked_list/)   |  [ ]  | [ ] |
+| Circular Linked List          | [Link](projects/circular_linked_list/) |  [ ]  | [ ] |
+| Binary Tree                   | [Link](projects/binary_tree/)          |  [ ]  | [ ] |
+| Binary Search Tree            | [Link](projects/bst/)                  |  [ ]  | [ ] |
+| Heap (Min/Max)                | [Link](projects/heap/)                 |  [ ]  | [ ] |
+| Graph (Adjacency List/Matrix) | [Link](projects/graph/)                |  [ ]  | [ ] |
+| Hash Table                    | [Link](projects/hash_table/)           |  [ ]  | [ ] |
 
 </div>
 
 - ✔️ Mark progress by replacing `[ ]` with `[x]`.
+
 ---
+
 ## 🔹 How to Use
 
 1. Click the project folder link in the roadmap.
@@ -74,4 +76,4 @@
 - Strengthen problem-solving skills across Python & C.
 - Compare implementations across languages.
 
-⚠️ **Disclaimer:** This repository is for **self-learning and practice purposes only**.  
+⚠️ **Disclaimer:** This repository is for **self-learning and practice purposes only**.
