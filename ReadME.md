@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="assets/icdi.jpg" alt="PersonalHub Illustration" height="150">
+  <img src="assets/deepseek.jpeg" alt="PersonalHub Illustration" height="150">
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
