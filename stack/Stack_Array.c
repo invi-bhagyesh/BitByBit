@@ -1,75 +1,101 @@
-/*
-Dynamic Stack Implementation in C
-Time Complexity: O(1) for push, pop and peek operations
-Space Complexity: O(n) where n is the number of elements in the stack
-last updated: 2024-06-10 -> Attempt no. 1
-*/
-#include <stdio.h>
-#include <stdlib.h>
+#define MAX 6
+int stack[MAX], top=-1;
 
-typedef struct Stack {
-    int top, cap;
-    int* array;
-}Stack;
 
-Stack* createStack(int cap){
-    Stack* stack = (Stack*)malloc(sizeof(Stack));
-    stack -> cap = cap;
-    stack -> top = -1;
-    stack -> array = (int*)malloc(stack->cap * sizeof(int));
-    return stack;
-}
-
-void deleteStack(Stack* stack){
-    free(stack->array);
-    free(stack);
-}   
-
-int isFull(Stack* stack){
-    return stack->top == stack->cap - 1;
-}
-
-int isEmpty(Stack* stack){
-    return stack->top == -1;
-}
-
-void push(Stack* stack, int item){
-    if(isFull(stack)){
-        printf("Stack Overflow");
-        return;
+//push 
+void push(int item){
+    if (top==MAX-1){
+        printf("STACK OVERFLOW");
     }
-    stack->array[++stack->top] = item;
+    else{
+        stack[++top]=item;
+    }
+
 }
 
-int pop(Stack* stack){
-    if(isEmpty(stack)){
-        printf("Stack Underflow");
-        return -1;
+//pop
+void pop(){
+    if (top==-1){
+        printf("empty");
     }
-    return stack->array[stack->top--];
+    else{
+        printf("%d",stack[top--]);
+    }
 }
 
-int peek(Stack* stack){
-    if(!isEmpty(stack)){
-        return stack->array[stack->top];
+
+//peek
+void peek(){
+    if (top==-1){
+        printf("empty");
     }
-    return -1;
+    else{
+        printf("%d", stack[top]);
+    }
+}
+
+//isEmpty
+void isEmpty(){
+    if(top==-1){
+        printf("Stack is empty");
+    }
+}
+
+
+//display
+void display(){
+    for(int i=0; i<MAX;i++){
+        printf("%d",stack[i]);
+    }
 }
 
 int main(){
-    Stack* stack = createStack(100);
-    push(stack, 10);
-    push(stack, 20);
-    push(stack, 30);
+    int choice;
+    int item;
 
-    printf("%d\n", peek(stack));
-    printf("%d\n", pop(stack));
-    printf("Elements present in stack : ");
-    while(!isEmpty(stack))
-        printf("%d ",pop(stack));
-    printf("\n");
+    do{
+        printf("\n1. Push");
+        printf("\n2. Pop");
+        printf("\n3. Peek");
+        printf("\n4. Is Empty");
+        printf("\n5. Display");
+        printf("\n-1. Exit");
 
+        printf("\nEnter choice: ");
+        scanf("%d", &choice);
 
-    deleteStack(stack);
+        switch (choice){
+            case 1:
+                printf("Enter item: ");
+                scanf("%d", &item);
+                push(item);
+                break;
+
+            case 2:
+                pop();
+                break;
+
+            case 3:
+                peek();
+                break;
+
+            case 4:
+                isEmpty();
+                break;
+
+            case 5:
+                display();
+                break;
+
+            case -1:
+                printf("Exiting...");
+                break;
+
+            default:
+                printf("Invalid choice");
+        }
+    }
+    while(choice != -1);
+
     return 0;
 }

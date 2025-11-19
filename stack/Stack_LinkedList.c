@@ -1,53 +1,60 @@
-/*
-Implementing Stack using Linked List
-Time Complexity: O(1) for push, pop and peek operations
-Space Complexity: O(n) where n is the number of elements in the stack
-last updated: 2024-06-10 -> Attempt no. 1
-*/
-
-#include <stdio.h>
+# include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
-
-typedef struct Node {
+//Node structure
+typedef struct node{
     int data;
-    struct Node* next;
-}Node;
+    struct node* next;
+}node;
 
-int isEmpty(Node* head){
-    return head == NULL;
+node* createNode(int item){
+    node* newNode = (node*)malloc(sizeof(node));
+    newNode->data = item;
+    newNode->next= NULL;
 }
-void push(Node** head, int new_data){
-    Node *new_node = (Node*)malloc(sizeof(Node));
-    new_node -> data = new_data;
-    new_node -> next = (*head);
-    *head = new_node;
-}
+node* top = NULL;
 
-void pop(Node** head){
-    if(isEmpty(*head)){
-        printf("Stack Underflow");
-        return;}
-    Node* temp = *head;
-    *head = (*head) -> next;
-    free(temp);
-}
-
-int peek(Node* head){
-    if(!isEmpty(head)){
-        return head->data;
+//push
+void push(int item){
+    node* newNode = createNode(item);
+    if (!newNode) printf("OVerflow");
+    else{
+        newNode->next=top; 
+        top=newNode;
     }
-    return INT_MIN;
 }
 
-int main(){
-    Node* head = NULL;
-    push(&head, 10);
-    push(&head, 20);
-    push(&head, 30);   
+//pop
+void pop(){
+    if (top==NULL){
+        printf("EMPtY");
+    }
+    else{
+        node* temp= top;
+        top=top->next;
+        free(temp);
+    }
+}
 
-    printf("%d", peek(head));
-    pop(&head);
-    printf("%d", peek(head));
-    return 0;
+//peek
+void peek(){
+    if (top==NULL){
+        printf("EMPTY");
+    }
+    else{
+        printf("%d", top->data);
+    }
+}
+
+//display
+void peek(){
+    if (top=NULL){
+        printf("EMPTY");
+    }
+    else{
+        node* temp=top;
+        while(temp!=NULL){
+            printf("%d->", temp->data);
+            temp=temp->next;
+        }
+    }
 }
