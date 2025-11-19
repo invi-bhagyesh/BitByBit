@@ -8,7 +8,7 @@
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![C Language](https://img.shields.io/badge/C-Standard-red.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 
-<h3>A unified hub for learning and implementing projects in <b>multiple languages</b> (Python & C).</h3>
+<h3>Practising Data Structures</h3>
 </div>
 
 ---
